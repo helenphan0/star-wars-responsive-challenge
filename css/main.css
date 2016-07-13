@@ -1,0 +1,44 @@
+body {
+  font-family: Roboto;
+}
+
+nav {
+  position: fixed;
+  background-color: goldenrod;
+  height: 100px;
+  width: 100%;
+  padding-top: 15px;
+}
+
+nav h1, nav h2 {
+  padding-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+main {
+  padding-top: 100px;
+}
+
+main .row {
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+}
+
+main .box {
+  border: 1px solid lightgrey;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+.box>img {
+  max-width: 100%;
+}
+
+main .box>h2, main .box>p {
+  padding-left: 20px;
+
+}
